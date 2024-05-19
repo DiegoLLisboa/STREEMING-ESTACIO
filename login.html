@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css">
+    <title>Login</title>
+</head>
+<body class="BGLogin">
+    <section class="Logo">
+        <img src="Logo intraflix.png" alt="">
+    </section>
+    <img class="RetanguloLogin" src="Forma - Retangulo 4.png" alt="">
+    <form class="Login">
+
+        <label>&nbsp&nbspE-mail</label><br>
+            <input type="email" id="login" placeholder="Seu e-mail itaú"><br>
+        <label>&nbsp&nbspSenha</label><br>
+            <input type="password" id="senha" placeholder="Sua senha"><br>
+            <input class="Submit" type="submit" onclick="logar(); return false">
+
+    </form>
+    <section class="TxEntrar">
+        <img src="Texto - Entrar.png" alt="">
+    </section>
+
+    <Script>
+ 
+        function logar(){
+    
+                var login = document.getElementById('login').value;
+                var senha = document.getElementById('senha').value;
+    
+    
+                if(login == "profthier@itau.com" && senha == "Itau@2024"){
+                    location.href = "home.html";
+                }else{
+                    alert('Usuario e senha incorretos');
+                }
+            
+        }
+    
+    </Script>
+
+</body>
+
+</html>

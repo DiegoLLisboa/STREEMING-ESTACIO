@@ -1,0 +1,396 @@
+/* -------------------------------------------------------------*/
+/* -----------------------Pagina Inicio-------------------------*/
+/* -------------------------------------------------------------*/
+html{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.BGInicial{
+    background-image: url(Tela\ inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1920px;
+    min-height: 3200px;
+}
+
+.Titulo{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    transform: translateY(620px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Titulo2{
+    text-align: center;
+    font-size: 26px;
+    transform: translateY(620px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logo{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    
+}
+.Entrar{
+    color: transparent;
+    background-image: url(Botão\ -\ Entrar.png);
+    background-repeat: no-repeat;
+    width: 138px;
+    height: 60px;
+    position: absolute;
+    top: 60px;
+    left: 1700px;
+}
+.Entre{
+    color:#fe6200;
+    text-decoration: none;
+}
+
+.RetanguloHomemTablet{
+    position: absolute;    
+    top: 1150px;
+    left: 150px
+
+}
+
+.HomemTablet{
+    position: absolute;
+    top: 1133px;
+    left: 850px;
+
+}
+
+.TextoHomemTablet{
+    position: absolute;
+    top: 1245px;
+    left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    text-align: center;
+
+}
+
+.RetanguloMulherCelular{
+    position: absolute;    
+    top: 1660px;
+    left: 150px
+}
+
+.MulherCelular{
+    position: absolute;
+    top: 1690px;
+    left: 307px;
+}
+
+.TextoMulherCelular{
+    position: absolute;
+    top: 1760px;
+    left: 1030px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    text-align: center;
+}
+
+.TextoPerguntasFrequentes{
+    position: absolute;
+    top: 2260px;
+    left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+
+.PerguntasFrequentes{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    max-width: 1100px;
+}
+
+section details summary{
+    font-size: 27px;
+    width: 1100px;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+section details p{
+    padding: 1%;
+    font-size: 22px;
+}
+
+.VamosLá{
+    color: transparent;
+    background-image: url(Botão\ -\ Vamos\ lá.png);
+    border-radius: 10px;
+    top: 790px;
+    left: 590px;
+    width: 154px;
+    height: 65px;
+    position: absolute;
+}
+.EntreComEmail{
+    font-size: 25px;
+    position: absolute;
+    top: 710px;
+    left: 320px;
+}
+
+/* -------------------------------------------------------------*/
+/* -----------------------Pagina Login--------------------------*/
+/* -------------------------------------------------------------*/
+
+.BGLogin{
+    background-image: url(Tela\ login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.RetanguloLogin{
+    position: absolute;
+    top: 250px;
+    left: 750px
+}
+
+.Login{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    left: 785px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    margin: 5px;
+    font-size: 15px;
+    outline-color: #fe6200;
+    border-radius: 10px;
+    padding: 10px;
+    width: 343px;
+    height: 25px;
+
+}
+
+.TxEntrar{
+    position: absolute;
+    top: 280px;
+    left: 913px;
+    }
+
+.Submit{
+    color: transparent;
+    background-image: url(Texto\ -\ Concluir.png);
+    background-size: cover;
+    border-color: #fe6200;
+    width: 154px;
+    height: 65px;
+    position: absolute;
+    top: 180px;
+    left: 105px;
+}
+
+/* -------------------------------------------------------------*/
+/* -----------------------Pagina Home---------------------------*/
+/* -------------------------------------------------------------*/
+
+.BgHome{
+    background-image: url(Tela\ home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1920px;
+    min-height: 2160px;
+}
+
+.BotaoLives{
+    color: transparent;
+    background-image: url(Botão\ -\ Lives.png);
+    width: 138px;
+    height: 60px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.BotaoAulas{
+    color: transparent;
+    background-image: url(Botão\ -\ Aulas.png);
+    width: 138px;
+    height: 60px;
+    position: absolute;
+    top: 100px;
+    left: 610px;
+}
+
+.BotaoSair{
+    color: transparent;
+    background-image: url(Botão\ -\ Sair.png);
+    width: 154px;
+    height: 65px;
+    position: absolute;
+    top: 60px;
+    left: 1680px;
+
+}
+
+.Tecnicas{
+    color: transparent;
+    background-image: url(Imagem\ -\ Tecnicas\ Endomarketing.png);
+    width: 651px;
+    height: 407px;
+    position: absolute;
+    top: 620px;
+    left: 10px;
+}
+
+.TextoContinuar{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 480px;
+    left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TextoPlataforma{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 590px;
+    left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SecLives{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 1080px;
+    left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.LinguagemCorp{
+    color: transparent;
+    background-image: url(Imagem\ -\ Linguagem\ Corporativa.png);
+    width: 640px;
+    height: 411px;
+    position: absolute;
+    top: 1200px;
+    left: 10px;
+}
+
+.IngleseExpressoes{
+    color: transparent;
+    background-image: url(Imagem\ -\ Ingles\ e\ Expressoes.png);
+    width: 640px;
+    height: 411px;
+    position: absolute;
+    top: 1200px;
+    left: 665px;
+}
+
+.TecnicasInter{
+    color: transparent;
+    background-image: url(Imagem\ -\ Tecnicas\ Interpessoais.png);
+    width: 583px;
+    height: 411px;
+    position: absolute;
+    top: 1206px;
+    left: 1320px;
+}
+
+.SecAulas{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 1600px;
+    left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.PraticasEquipe{
+    color: transparent;
+    background-image: url(Imagem\ -\ Praticas\ de\ equipe.png);
+    width: 640px;
+    height: 411px;
+    position: absolute;
+    top: 1720px;
+    left: 10px;
+}
+
+.SegurancaDados{
+    color: transparent;
+    background-image: url(Imagem\ -\ Segurança\ de\ dados.png);
+    width: 640px;
+    height: 411px;
+    position: absolute;
+    top: 1725px;
+    left: 665px;
+}
+
+.Oratoria{
+    color: transparent;
+    background-image: url(Imagem\ -\ Oratoria.png);
+    width: 583px;
+    height: 411px;
+    position: absolute;
+    top: 1720px;
+    left: 1320px;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------*/
+/* ---------------------Pagina Reproducao-----------------------*/
+/* -------------------------------------------------------------*/
+
+.BgReproducao{
+    background-image: url(Tela\ professor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TextoReproducao{
+    font-size: 37px;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.TextoReproducao1{
+    font-size: 52px;
+    font-weight: bold;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.XSair{
+    color: black;
+    font-size: 52px;
+    text-decoration: none;
+    width: 154px;
+    height: 65px;
+    position: absolute;
+    top: 40px;
+    left: 1800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
